@@ -3,20 +3,20 @@ This repository is for the Top Pot Donuts assignment.
 Below are my first results after running my script:
 
 =======================================================
-Downtown has 83 per hour.
-Capitol Hill has 32 per hour.
-South Lake Union has 74 per hour.
-Wedgewood has 17 per hour.
-Ballard has 31 per hour.
+Downtown has 83 per hour.<br />
+Capitol Hill has 32 per hour.<br />
+South Lake Union has 74 per hour.<br />
+Wedgewood has 17 per hour.<br />
+Ballard has 31 per hour.<br />
 
-Downtown has 122 per hour.
-Capitol Hill has 48 per hour.
-South Lake Union has 146 per hour.
-Wedgewood has 31 per hour.
-Ballard has 43 per hour.
+Downtown has 122 per hour.<br />
+Capitol Hill has 48 per hour.<br />
+South Lake Union has 146 per hour.<br />
+Wedgewood has 31 per hour.<br />
+Ballard has 43 per hour.<br />
 
-Downtown has 209 per hour.
-Capitol Hill has 63 per hour.
+Downtown has 209 per hour.<br />
+Capitol Hill has 63 per hour.<br />
 South Lake Union has 208 per hour.
 Wedgewood has 49 per hour.
 Ballard has 73 per hour.
