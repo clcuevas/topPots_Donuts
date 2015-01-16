@@ -2,70 +2,72 @@ This repository is for the Top Pot Donuts assignment.
 
 Below are my first results after running my script:
 
-=======================================================
-Downtown has 83 per hour.<br />
-Capitol Hill has 32 per hour.<br />
-South Lake Union has 74 per hour.<br />
-Wedgewood has 17 per hour.<br />
-Ballard has 31 per hour.<br />
+Downtown has 49 per hour.
+Downtown has 122 per hour.
+Downtown has 201 per hour.
+Downtown has 245 per hour.
+Downtown has 310 per hour.
+Downtown has 344 per hour.
+Downtown has 423 per hour.
+Downtown has 495 per hour.
+Downtown has 534 per hour.
+Downtown has 593 per hour.
+Downtown has 671 per hour.
 
-Downtown has 122 per hour.<br />
-Capitol Hill has 48 per hour.<br />
-South Lake Union has 146 per hour.<br />
-Wedgewood has 31 per hour.<br />
-Ballard has 43 per hour.<br />
+Downtown requires a total of 3991 donuts for the day.
 
-Downtown has 209 per hour.<br />
-Capitol Hill has 63 per hour.<br />
-South Lake Union has 208 per hour.<br />
-Wedgewood has 49 per hour.<br />
-Ballard has 73 per hour.<br />
+Capitol Hill has 19 per hour.
+Capitol Hill has 31 per hour.
+Capitol Hill has 62 per hour.
+Capitol Hill has 93 per hour.
+Capitol Hill has 103 per hour.
+Capitol Hill has 129 per hour.
+Capitol Hill has 137 per hour.
+Capitol Hill has 148 per hour.
+Capitol Hill has 175 per hour.
+Capitol Hill has 201 per hour.
+Capitol Hill has 220 per hour.
 
-Downtown has 261 per hour.<br />
-Capitol Hill has 92 per hour.<br />
-South Lake Union has 264 per hour.<br />
-Wedgewood has 63 per hour.<br />
-Ballard has 85 per hour.<br />
+Capitol Hill requires a total of 1324 donuts for the day.
 
-Downtown has 313 per hour.<br />
-Capitol Hill has 116 per hour.<br />
-South Lake Union has 330 per hour.<br />
-Wedgewood has 69 per hour.<br />
-Ballard has 124 per hour.<br />
+South Lake Union has 73 per hour.
+South Lake Union has 144 per hour.
+South Lake Union has 201 per hour.
+South Lake Union has 259 per hour.
+South Lake Union has 324 per hour.
+South Lake Union has 394 per hour.
+South Lake Union has 460 per hour.
+South Lake Union has 527 per hour.
+South Lake Union has 584 per hour.
+South Lake Union has 638 per hour.
+South Lake Union has 706 per hour.
 
-Downtown has 393 per hour.<br />
-Capitol Hill has 146 per hour.<br />
-South Lake Union has 404 per hour.<br />
-Wedgewood has 80 per hour.<br />
-Ballard has 142 per hour.<br />
+South Lake Union requires a total of 4314 donuts for the day.
 
-Downtown has 448 per hour.<br />
-Capitol Hill has 151 per hour.<br />
-South Lake Union has 478 per hour.<br />
-Wedgewood has 98 per hour.<br />
-Ballard has 194 per hour.<br />
+Wedgewood has 14 per hour.
+Wedgewood has 22 per hour.
+Wedgewood has 31 per hour.
+Wedgewood has 47 per hour.
+Wedgewood has 59 per hour.
+Wedgewood has 73 per hour.
+Wedgewood has 84 per hour.
+Wedgewood has 97 per hour.
+Wedgewood has 112 per hour.
+Wedgewood has 123 per hour.
+Wedgewood has 133 per hour.
 
-Downtown has 488 per hour.<br />
-Capitol Hill has 181 per hour.<br />
-South Lake Union has 538 per hour.<br />
-Wedgewood has 106 per hour.<br />
-Ballard has 204 per hour.<br />
+Wedgewood requires a total of 801 donuts for the day.
 
-Downtown has 532 per hour.<br />
-Capitol Hill has 204 per hour.<br />
-South Lake Union has 602 per hour.<br />
-Wedgewood has 120 per hour.<br />
-Ballard has 246 per hour.<br />
+Ballard has 30 per hour.
+Ballard has 82 per hour.
+Ballard has 128 per hour.
+Ballard has 160 per hour.
+Ballard has 194 per hour.
+Ballard has 218 per hour.
+Ballard has 268 per hour.
+Ballard has 323 per hour.
+Ballard has 338 per hour.
+Ballard has 376 per hour.
+Ballard has 406 per hour.
 
-Downtown has 574 per hour.<br />
-Capitol Hill has 212 per hour.<br />
-South Lake Union has 671 per hour.<br />
-Wedgewood has 136 per hour.<br />
-Ballard has 299 per hour.<br />
-
-Downtown has 635 per hour.<br />
-Capitol Hill has 229 per hour.<br />
-South Lake Union has 730 per hour.<br />
-Wedgewood has 153 per hour.<br />
-Ballard has 328 per hour.<br />
-=====================================================
+Ballard requires a total of 2526 donuts for the day.
