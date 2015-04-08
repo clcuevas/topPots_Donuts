@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TopPot Donuts</title>
+	</head>
+	<body>
+		<h1>TopPot Donuts!</h1>
+		<table>
+			<tr id="hours">
+				<th></th>
+				<td>7:00 AM</td>
+				<td>8:00 AM</td>
+				<td>9:00 AM</td>
+				<td>10:00 AM</td>
+				<td>11:00 AM</td>
+				<td>12:00 PM</td>
+				<td>1:00 PM</td>
+				<td>2:00 PM</td>
+				<td>3:00 PM</td>
+				<td>4:00 PM</td>
+				<td>5:00 PM</td>
+				<td>6:00 PM</td>
+				<td><strong>Total</strong></td>
+			</tr>
+			<tr id="downtown">
+				<th>Downton</th>
+			</tr>
+			<tr id="capitol">
+				<th>Capitol Hill</th>
+			</tr>
+			<tr id="slu">
+				<th>South Lake Union</th>
+			</tr>
+			<tr id="wedgewood">
+				<th>Wedgewood</th>
+			</tr>
+			<tr id="ballard">
+				<th>Ballard</th>
+			</tr>
+		</table>
+	</body>
+	<script>
+		function Locations(name, openHour, closeHour, minTraffic, maxTraffic, entering, orderPerEntrant) {
+			this.name = name;
+			this.openHour = openHour;
+			this.closeHour = closeHour;
+			this.minTraffic = minTraffic;
+			this.maxTraffic = maxTraffic;
+			//percentage of traffic entering a Top Pot location
+			this.entering = entering;
+			this.orderPerEntrant = orderPerEntrant;
+			this.orderPerHour = 0;
+			this.hourlyTotalArray = [];
+			//this function calculates the donuts sold by the hour depending on the traffic
+			this.donutsSold = function() {
+				return this.orderPerHour += ((((Math.random() * (this.maxTraffic - this.minTraffic)) + this.minTraffic) * this.entering * this.orderPerEntrant));
+			};
+			/*this function returns the report of each location with the # of donuts sold
+			moved for loop to report in order to calculate the sum of donuts needed for the day for each location*/
+			this.donutsSoldPerDay = function() {
+				var hourlyDonuts;
+				var sum = 0;
+
+				for (var i = 7; i <= 18; i++) {
+					hourlyDonuts = Math.floor(this.donutsSold());
+					this.hourlyTotalArray.push(hourlyDonuts);
+					sum += hourlyDonuts;
+					// console.log(this.name + " has " + this.orderPerHour + " per hour.");
+				}
+				// console.log(this.name + " requires a total of " + Math.floor(sum) + " donuts for the day.");
+				return sum;
+			};
+
+			this.writeToHTML = function() {
+				var dailyTotal = this.donutsSoldPerDay();
+				var getTag = document.getElementById(this.name);
+
+				for(var i = 0; i <= this.hourlyTotalArray.length; i++) {
+					var createTag = document.createElement('td');
+					createTag.textContent = this.hourlyTotalArray[i];
+					getTag.appendChild(createTag);
+				}
+				createTag.textContent = dailyTotal;
+				getTag.appendChild(createTag);
+			};
+		}
+
+		var downtown = new Locations("downtown", 7, 18, 80, 220, 0.10, 4);
+		var	capitolHill = new Locations("capitol", 7, 18, 5, 45, 0.45, 2);
+		var	southLK = new Locations("slu", 7, 18, 180, 250, 0.05, 6);
+		var	wedgewood = new Locations("wedgewood", 7, 18, 20, 60, 0.20, 1.5);
+		var ballard = new	Locations("ballard", 7, 18, 25, 175, 0.33, 1);
+
+		downtown.writeToHTML();
+		capitolHill.writeToHTML();
+		southLK.writeToHTML();
+		wedgewood.writeToHTML();
+		ballard.writeToHTML();
+	</script>
+</html>
